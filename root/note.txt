@@ -1,0 +1,5 @@
+There is flag inside flag directory.
+
+Just somehow manage to obtain the flag.
+
+flag path: '/../flag/flag.txt'
