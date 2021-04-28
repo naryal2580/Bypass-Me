@@ -4,6 +4,12 @@ This is a simple CTF challenge to byapass path traversal. Flag is just there as 
 
 If you can bypass it, do raise an Issue.
 
-And, if you have a fix. Send a PR :)
+And, if you have a better fix. Send a PR :)
 
-RED vs BLUE
+**RED vs BLUE**
+
+Solve it, and get listed below.
+
+##### RED TEAM: @C15C01337
+
+##### BLUE TEAM: @naryal2580 (myself)
