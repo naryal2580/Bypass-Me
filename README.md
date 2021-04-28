@@ -10,6 +10,9 @@ And, if you have a better fix. Send a PR :)
 
 Solve it, and get listed below.
 
-##### RED TEAM: @C15C01337
+##### RED
+ - @C15C01337 (PAYLOAD: `/?filename=../flag/flag.txt`) **PATCHED**
+ - @guragainroshan0 (PAYLOAD: `/?filename=./....//flag/flag.txt`)
 
-##### BLUE TEAM: @naryal2580 (myself)
+##### BLUE
+ - @naryal2580 (Monkey patch: `filepath = f'./root/{filename}'.replace('../', '').replace('..\\', '').rstrip('/').rstrip('\\')`) **GOT BYPASSED**
