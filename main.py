@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get('/')
 def return_file(filename: str):
-    filepath = f'./root/{filename}'
+    filepath = f'./root/{filename}'.replace('../', '').replace('..\\', '').rstrip('/').rstrip('\\')
 
     if filepath.split('.')[-1] not in ('html', 'txt'):
         raise HTTPException(
