@@ -12,7 +12,6 @@ def return_file(filename: Optional[str] = ''):
     if not filename:
         return RedirectResponse('/?filename=index.html')
     filepath = f'./root/{filename}'.replace('../', '').replace('..\\', '').rstrip('/').rstrip('\\')
-    print(filepath)
     while '../' in filepath or '..\\' in filepath:
         filepath = filepath.replace('../', '').replace('..\\', '')
 
