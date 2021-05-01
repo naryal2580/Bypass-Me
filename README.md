@@ -12,7 +12,12 @@ Solve it, and get listed below.
 
 ##### RED
  - @C15C01337 (PAYLOAD: `/?filename=../flag/flag.txt`) **PATCHED**
- - @guragainroshan0 (PAYLOAD: `/?filename=./....//flag/flag.txt`)
+ - @guragainroshan0 (PAYLOAD: `/?filename=./....//flag/flag.txt`) **PATCHED**
 
 ##### BLUE
  - @naryal2580 (Monkey patch: `filepath = f'./root/{filename}'.replace('../', '').replace('..\\', '').rstrip('/').rstrip('\\')`) **GOT BYPASSED**
+ - @naryal2580 Donkey patch: 
+```py
+while '../' in filepath or '..\\' in filepath:
+        filepath = filepath.replace('../', '').replace('..\\', '')
+```
